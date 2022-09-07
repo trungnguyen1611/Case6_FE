@@ -1,0 +1,11 @@
+.review-slide p {
+    max-height: 240px;
+}
+.review-slide {
+    max-width: 370px;
+    max-height: 324px;
+    margin-top: 24px;
+    border: 1px solid #f0f0f0 !important;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
