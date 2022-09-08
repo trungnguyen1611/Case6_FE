@@ -168,7 +168,7 @@ const DialogTransaction = () => {
                                 </div>
 
                                 <div className="relative w-full pl-2 pr-2">
-                                    <input type={"number"} id="floating_filled" onChange={handleChangeAmount}
+                                    <input type="number" id="floating_filled" onChange={handleChangeAmount}
                                            value={amount}
                                            className="block rounded-[10px] p-2 pl-5 pt-5 w-full h-full text-sm text-gray-900   border border-gray-300  appearance-none focus:outline-none focus:ring-0 hover:border-black peer"
                                            placeholder=" "/>
