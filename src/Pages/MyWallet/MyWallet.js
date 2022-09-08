@@ -36,7 +36,7 @@ export default function MyWallet() {
     useEffect(() => {
         const qs = require('qs');
         const data = qs.stringify({
-            'userId': currentUser._id
+            'userId': currentUser?._id
         });
         const config = {
             method: 'post',
@@ -64,7 +64,7 @@ export default function MyWallet() {
 
     const handleOpenDialogDetail = (e, wallet) => {
         dispatch(openDialogDetail(true))
-        setWalletId(wallet._id)
+        setWalletId(wallet?._id)
     }
 
     function currencyFormat(num) {
