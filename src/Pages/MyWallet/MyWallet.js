@@ -40,7 +40,7 @@ export default function MyWallet() {
         });
         const config = {
             method: 'post',
-            url: 'http://localhost:8080/wallet/render',
+            url: 'https://apialoha.herokuapp.com/wallet/render',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
