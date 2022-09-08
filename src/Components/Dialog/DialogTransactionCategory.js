@@ -33,14 +33,14 @@ const DialogTransactionCategory = (props) => {
             .then(res => {
                 setListCategory(res.data.data)
             })
-        if (currentWalletState._id) {
-            axios.post('category/expense', {wallet: currentWalletState._id})
+        if (currentWalletState?._id) {
+            axios.post('category/expense', {wallet: currentWalletState?._id})
                 .then(res => {
                     setListExpense(res.data.data)
                     setIsLoading(false)
 
                 })
-            axios.post('category/income', {wallet: currentWalletState._id})
+            axios.post('category/income', {wallet: currentWalletState?._id})
                 .then(res => {
                     setListIncome(res.data.data)
                     setIsLoading(false)
