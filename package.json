@@ -33,7 +33,13 @@
     "tw-elements": "^1.0.0-alpha12",
     "uuid": "^8.3.2",
     "validator": "^13.7.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@types/react": "^18.0.17",
+    "prop-types": "^15.8.1",
+    "qs": "^6.11.0",
+    "react-loading-screen": "^0.0.17",
+    "react-spring": "^9.5.2",
+    "react-validation-framework": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -59,13 +65,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8080/",
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "prop-types": "^15.8.1",
-    "qs": "^6.11.0",
-    "react-loading-screen": "^0.0.17",
-    "react-spring": "^9.5.2",
-    "react-validation-framework": "^5.1.0"
-  }
+  "proxy": "https://aloha-back-end.herokuapp.com/"
+
 }
