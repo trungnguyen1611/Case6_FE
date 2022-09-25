@@ -66,7 +66,7 @@ const UserSearchTransactionPage = () => {
                 setListTransaction(res.data.data)
                 setToggleDetail(false)
             })
-    }, [searchInput,dialogEditState])
+    }, [searchInput])
 
     useEffect(() => {
         dispatch(isLoadingAPIScreen())
@@ -84,7 +84,7 @@ const UserSearchTransactionPage = () => {
                         })
                 })
         }
-    }, [total])
+    }, [total, dialogEditState])
 
     const handleCLoseDetail = () => {
         setToggleDetail(false)
