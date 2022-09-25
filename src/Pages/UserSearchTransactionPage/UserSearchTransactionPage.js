@@ -84,7 +84,7 @@ const UserSearchTransactionPage = () => {
                         })
                 })
         }
-    }, [total, dialogEditState])
+    }, [total])
 
     const handleCLoseDetail = () => {
         setToggleDetail(false)
